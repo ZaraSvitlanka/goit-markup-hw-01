@@ -1,6 +1,6 @@
 body {
     font-family: Roboto, sans-serif;
-    background-color: white;
+    background-color: #fff;
 
 }
 
@@ -25,27 +25,27 @@ button-hero {
  }
  .list-stail:hover,
  .list-stail:focus {
-        background-color: #404bbf;
+background-color: #404bbf;
     }
 
 .logo {
  text-decoration: none;
-    color: var(--IRIS, #4D5AE5);
+    color: #4D5AE5;
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1,16;
     /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 
 .logo-span {
-color: var(--NAVY-BLUE, #2E2F42);
+color: #2E2F42;
 font-family: Raleway;
 font-size: 18px;
 font-weight: 700;
-line-height: 21px; /* 116.667% */
+line-height: 1,16; /* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase;
 }
@@ -56,13 +56,13 @@ text-transform: uppercase;
 
 .menu-item {
     list-style-type: none;
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #2E2F42;
         /* Body Medium */
         font-family: Roboto;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 1,5;
         /* 150% */
         letter-spacing: 0.32px;
 }
@@ -72,22 +72,22 @@ text-transform: uppercase;
         font-family:Roboto;
         font-size: 16px;
         font-weight: 400;
-        line-height: 24px;
+        line-height: 1,5;
         /* 150% */
         letter-spacing: 0.32px;
 }
 
 .main-hero {
-        background: var(--NAVY-BLUE, #2E2F42);
+        background: #2E2F42;
     }
 .hero-name {
-        color: var(--WHITE, #FFF);
+        color: #FFF;
         text-align: center;
                 /* Header 1 */
         font-family: Roboto;
         font-size: 56px;
         font-weight: 700;
-        line-height: 60px;
+        line-height: 1,07;
                 /* 107.143% */
         letter-spacing: 1.12px;
 }
@@ -98,7 +98,7 @@ text-transform: uppercase;
         font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 1,5;
         /* 150% */
         letter-spacing: 0.64px;
         border-radius: 4px;
@@ -110,151 +110,142 @@ text-transform: uppercase;
     background: #FFF;
     }
 .benefits-name {
-        color: var(--NAVY-BLUE, #2E2F42);
+        color: #2E2F42;
             text-align: center;
             /* Header 2 */
             font-family: Roboto;
             font-size: 36px;
             font-weight: 700;
-            line-height: 40px;
+            line-height: 1,1;
             /* 111.111% */
             letter-spacing: 0.72px;
             text-transform: capitalize;
 }
 
 .benefits-direct-name{
-        color: var(--NAVY-BLUE, #2E2F42);
+        color: #2E2F42;
             /* Header 3 */
             font-family: Roboto;
             font-size: 20px;
             font-weight: 500;
-            line-height: 24px;
+            line-height: 1.2;
             /* 120% */
             letter-spacing: 0.4px;
     }
 .benefits-about {
-        color: var(--SLATE, #434455);
+        color: #434455;
             /* Body */
             font-family: Roboto;
             font-size: 16px;
             font-weight: 400;
-            line-height: 24px;
+            line-height: 1,5;
             /* 150% */
             letter-spacing: 0.32px;
     }
 
 .main-team {
-    background: var(--CLOUD, #F4F4FD);
+    background: #F4F4FD;
 }
 
 .main-team-name {
-    color: var(--NAVY-BLUE, #2E2F42);
-        text-align: center;
+    color: #2E2F42;
+    text-align: center;
         /* Header 2 */
-        font-family: Roboto;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 40px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1,1;
         /* 111.111% */
-        letter-spacing: 0.72px;
-        text-transform: capitalize;
+    letter-spacing: 0.72px;
  }
 
- .team-name {color: var(--NAVY-BLUE, #2E2F42);
+ .team-name {
+    color: #2E2F42;
     text-align: center;
     /* Header 3 */
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1,2;
     /* 120% */
     letter-spacing: 0.4px;
-
  }
 
  .team-post {
-    color: var(--SLATE, #434455);
-        text-align: center;
+    color: #434455;
+    text-align: center;
         /* Body */
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1,5;
         /* 150% */
-        letter-spacing: 0.32px;
+    letter-spacing: 0.32px;
  }
 
  .main-portfolio {
     background: #FFF;
  }
  .main-portfolio-name {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #2E2F42;
     text-align: center;
-    /* Header 2 */
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
-    /* 111.111% */
+    line-height: 1,1;
     letter-spacing: 0.72px;
  }
 
  .portfolio-name {
-        color: var(--NAVY-BLUE,#2E2F42);
+        color: #2E2F42;
 /* Header 3 */
 font-family: Roboto;
 font-size: 20px;
-font-style: normal;
 font-weight: 500;
 line-height: 24px; /* 120% */
 letter-spacing: 0.4px;
 }
 .portfolio-post {
-    color: var(--SLATE, #434455);
+    color: #434455;
         /* Body */
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1,5;
     /* 150% */
     letter-spacing: 0.32px;
 }
 
  .main-footer {
-        background: var(--NAVY-BLUE, #2E2F42);
+        background:#2E2F42;
  }
 
  .logo-footer {
-color: var(--IRIS, #4D5AE5);
-    font-family: Raleway;
+color: #4D5AE5;
+    font-family: "Raleway";
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 21px;
-    /* 116.667% */
-    letter-spacing: 0.54px;
+    line-height: 1.17;
+    letter-spacing: 0.03;
     text-transform: uppercase;
 }
 .footer-logo-span {
-        color: var(--CLOUD, #F4F4FD);
-        font-family: Raleway;
+        color: #F4F4FD;
+        font-family: "Raleway";
         font-size: 18px;
         font-weight: 700;
-        line-height: 21px;
-            /* 116.667% */
-        letter-spacing: 0.54px;
+        line-height: 1.17;
+        letter-spacing: 0.03;
         text-transform: uppercase;
     }
 
     
  .footer-list {
-    color: var(--CLOUD, #F4F4FD);
-        /* Body */
+    color: #F4F4FD;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
-    /* 150% */
+    line-height: 1,5;
     letter-spacing: 0.32px;
  }
 
