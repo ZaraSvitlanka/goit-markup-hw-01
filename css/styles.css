@@ -11,6 +11,11 @@ ol, ul {
     list-style-type: none;
 }
 
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFF;
+}
 .accent-color {
         color: #F4F4FD;
     }
@@ -26,7 +31,7 @@ button {
     font-weight: 700;
     line-height: 1.17;
     /* 116.667% */
-    letter-spacing: 0.03px;
+    letter-spacing: 0.03em;
     color: #4D5AE5;
 }
 
@@ -35,7 +40,8 @@ button {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17; /* 116.667% */
-    letter-spacing: 0.03px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #2E2F42;
 }
 .menu-link {
@@ -44,14 +50,10 @@ button {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 1.5;/* 150% */
+    line-height: 1.5;
     letter-spacing: 0.32px;
-color: #2e2f42;
+    color: #2e2f42;
     }
-.menu-link:hover,
-.menu-link:focus {
-        background-color: #404bbf;
-        }
 
 .menu-item {
         /* Body Medium */
@@ -61,21 +63,15 @@ color: #2e2f42;
         font-weight: 500;
         line-height: 1.5;/* 150% */
         letter-spacing: 0.32px;
-        color: #2e2f42;
+        color: #2e2f42;  
 }
+.menu-link:hover,
+.menu-link:focus {
+    background-color: #404bbf;
+    }
         /* Body */
 .menu-address-item {
         font-style: normal;
-    }
-
-.menu-addres-link {
-        font-family: "Roboto", sans-serif;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.5;
-        /* 150% */
-        letter-spacing: 0.32px;
-        color: #434455;
     }
 
 .main-hero {
@@ -124,39 +120,37 @@ color: #2e2f42;
 
 .benefits-direct-name{
         color: #2E2F42;
-            /* Header 3 */
-            font-family: "Roboto", sans-serif;
-            font-size: 20px;
-            font-weight: 500;
-            line-height: 1.2;
-            /* 120% */
-            letter-spacing: 0.4px;
+        font-family: "Roboto", sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
     }
 .benefits-about {
         color: #434455;
-            /* Body */
-            font-family: "Roboto", sans-serif;
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 1.5;
-            /* 150% */
-            letter-spacing: 0.32px;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
     }
-
+            /* Section 3 */
 .main-team {
-    background: #F4F4FD;
+        background: #F4F4FD;
 }
-
+.page-name {
+        background: #ffffff;
+    }
+            
 .main-team-name {
-    color: #2E2F42;
     text-align: center;
-        /* Header 2 */
     font-family: "Roboto", sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
-        /* 111.111% */
     letter-spacing: 0.72px;
+    text-transform: uppercase;
+    color: #2E2F42;
  }
 
 .main-team-link:hover,
@@ -172,7 +166,6 @@ color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    /* 120% */
     letter-spacing: 0.4px;
     background-color: #fff;
  }
@@ -180,12 +173,10 @@ color: #2e2f42;
  .team-post {
     color: #434455;
     text-align: center;
-        /* Body */
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-        /* 150% */
     letter-spacing: 0.32px;
     background-color: #fff;
  }
@@ -194,19 +185,18 @@ color: #2e2f42;
     background: #FFF;
  }
  .main-portfolio-name {
-    text-transform: capitalize;
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.72px;
+    text-transform: uppercase;
     color: #2E2F42;
  }
 
  .portfolio-name {
     color: #2E2F42;
-/* Header 3 */
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 500;
@@ -223,7 +213,7 @@ color: #2e2f42;
     /* 150% */
     letter-spacing: 0.32px;
 }
-
+       /* footer*/
  .page-footer{
     background-color: #2e2f42;
     letter-spacing: 0.02em;
@@ -245,10 +235,8 @@ color: #2e2f42;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17;
-        letter-spacing: 0.03;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4D5AE5;
         margin-bottom: 16px;
     }
-
- 
