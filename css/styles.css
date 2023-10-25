@@ -110,7 +110,7 @@ button {
 
 .button-hero:hover,
 .button-hero:focus {
-    color: #404bbf;
+    background-color: #404bbf;
     color: #FFF;
     }
         
