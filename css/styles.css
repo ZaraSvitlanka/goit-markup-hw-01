@@ -30,7 +30,6 @@ button {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    /* 116.667% */
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
@@ -46,7 +45,6 @@ button {
     color: #2E2F42;
 }
 .menu-link {
-    /* Body Medium */
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -57,90 +55,100 @@ button {
     }
 .menu-link:hover,
 .menu-link:focus {
-    background-color: #404bbf;
+    color: #404bbf;
 }
 .menu-item {
         /* Body Medium */
-        font-family: "Roboto", sans-serif;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.5;/* 150% */
-        letter-spacing: 0.32px;
-        color: #2e2f42;  
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;/* 150% */
+    letter-spacing: 0.32px;
+    color: #2e2f42;  
 }
-
-        /* Body */
 .menu-address {
-        font-style: normal;
+    font-style: normal;
     }
 
+.address-link {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.32px;
+    color: #434455;
+}
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf;
+}
 .main-hero {
-        background: #2e2f42;
+    background: #2e2f42;
     }
        /* Header 1 */
 .hero-name {
-        text-align: center;
-        font-family: "Roboto", sans-serif;
-        font-size: 56px;
-        font-weight: 700;
-        line-height: 1.07;                /* 107.143% */
-        letter-spacing: 1.12px;
-        color: #fff;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    color: #fff;
 }
 
 .button-hero {
-        font-family: "Roboto", sans-serif;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #FFF;
-        background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFF;
+    background-color: #4D5AE5;
 }
 
 .button-hero:hover,
 .button-hero:focus {
-        background-color: #404bbf;
-        color: #FFF;
+    color: #404bbf;
+    color: #FFF;
     }
         
 .main-benefits {
-        background: #FFF;
+    background: #FFF;
     }       /* Header 2 */
 .benefits-name {
-        text-align: center;
-        font-family: "Roboto", sans-serif;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 1.1;
-        /* 111.111% */
-        letter-spacing: 0.72px;
-        color: #2E2F42;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.72px;
+    color: #2E2F42;
    }
 
 .benefits-direct-name{
-        color: #2E2F42;
-        font-family: "Roboto", sans-serif;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.4px;
+    color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
     }
 .benefits-about {
-        color: #434455;
-        font-family: "Roboto", sans-serif;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.32px;
+    color: #434455;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
     }
             /* Section 3 */
 .main-team {
-        background: #F4F4FD;
+    background: #F4F4FD;
 }
 .page-name {
-        background: #ffffff;
+    background: #ffffff;
     }
             
 .main-team-name {
@@ -206,32 +214,25 @@ button {
  }
 .portfolio-post {
     color: #434455;
-        /* Body */
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    /* 150% */
     letter-spacing: 0.32px;
 }
        /* footer*/
  .page-footer{
     background-color: #2e2f42;
     letter-spacing: 0.02em;
-    flex-shrink: 0;
-    padding: 100px 0;
-
+    
  }
-
 .footer-text {
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
-    width: 264;
 }
 .logo-footer {
-        display: inline-block;
         font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 700;
@@ -239,5 +240,4 @@ button {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4D5AE5;
-        margin-bottom: 16px;
     }
