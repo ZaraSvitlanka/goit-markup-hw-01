@@ -1,3 +1,8 @@
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+    }
+
 .list {
         list-style-type: none;
     }
@@ -9,21 +14,69 @@
 ol, ul {
     text-decoration: none;
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
+
+img {
+    display: block;
+    margin-bottom: 32px;
+}
+
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+    }
 
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.page-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
 .accent-color {
-        color: #F4F4FD;
+    color: #F4F4FD;
     }
 
 button {
-        cursor: pointer;
+    cursor: pointer;
     }    
 
+.main-nav {
+    display: flex;
+    width: 100%;
+    max-width: 1158px;
+    justify-content: space-between;
+    }
 .logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -33,6 +86,8 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    width: 72px;
+    margin-right: 72px;
 }
 
 .logo-span {
@@ -43,7 +98,16 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2E2F42;
-}
+    width: 72px;
+    margin-right: 72px;
+} 
+
+.menu-list {
+   display: flex;
+   column-gap: 40px;
+    
+    }
+
 .menu-link {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -89,6 +153,7 @@ button {
     }
        /* Header 1 */
 .hero-name {
+    display: flex;
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 56px;
@@ -96,9 +161,15 @@ button {
     line-height: 1.07;
     letter-spacing: 1.12px;
     color: #fff;
+    width: 496px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .button-hero {
+    display: block;
+    min-width: 169px;
+    height: 56px;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -106,6 +177,12 @@ button {
     letter-spacing: 0.04em;
     color: #FFF;
     background-color: #4D5AE5;
+    padding: 16px 32px;
+    gap: 10px;
+    border-radius: 4px;
+    margin: 0 auto;
+    border: none;
+   
 }
 
 .button-hero:hover,
@@ -116,8 +193,12 @@ button {
         
 .main-benefits {
     background: #FFF;
-    }       /* Header 2 */
+    width: 1440px;
+    height: ;
+    }      
+
 .benefits-name {
+       
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 36px;
@@ -125,7 +206,16 @@ button {
     line-height: 1.1;
     letter-spacing: 0.72px;
     color: #2E2F42;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    gap: 8px;
    }
+.benefits-list {
+        display: flex;
+        justify-content: space-around;
+        column-gap: 24px;
+        padding: 
+    }
 
 .benefits-direct-name{
     color: #2E2F42;
@@ -134,6 +224,7 @@ button {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    width: 264px;
     }
 .benefits-about {
     color: #434455;
@@ -142,11 +233,14 @@ button {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    width: 264px;
+    height: 72px;
     }
             /* Section 3 */
 .main-team {
-    background: #F4F4FD;
+    background: #F4F4FD;   
 }
+
 .page-name {
     background: #ffffff;
     }
@@ -160,13 +254,23 @@ button {
     letter-spacing: 0.72px;
     text-transform: capitalize;
     color: #2E2F42;
+    margin-top: 28px;
+    margin-bottom: 28px;
+
  }
 
 .main-team-link:hover,
 .main-team-link:focus {
-        background-color: #404bbf;
-    }
+    background-color: #404bbf;
+}
 
+.team-list {
+    display: flex;
+    justify-content: space-around;
+    display: inline-flex;
+    gap: 32px;
+    width: 1440px;
+}
  .team-name {
     color: #2E2F42;
     text-align: center;
@@ -202,7 +306,17 @@ button {
     letter-spacing: 0.72px;
     text-transform: capitalize;
     color: #2E2F42;
+    margin-top: 28px;
+    margin-bottom: 28px;
  }
+
+ .portfolio-list {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      align-content: stretch;
+
+    }
 
  .portfolio-name {
     color: #2E2F42;
@@ -224,6 +338,9 @@ button {
  .page-footer{
     background-color: #2e2f42;
     letter-spacing: 0.02em;
+    flex-shrink: 0;
+    padding: 100px 0;
+    margin: 0 auto;
     
  }
 .footer-text {
@@ -231,8 +348,10 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    width: 264px;
 }
 .logo-footer {
+        display: inline-block;
         font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
@@ -240,4 +359,6 @@ button {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4D5AE5;
+        margin-bottom: 16px;
+
     }
