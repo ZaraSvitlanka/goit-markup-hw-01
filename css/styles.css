@@ -145,6 +145,12 @@ button {
 }
 .menu-address {
     font-style: normal;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1158px;
+    justify-content: space-between;
+    gap: 40px;
     }
 
 .address-list {
