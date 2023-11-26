@@ -168,7 +168,7 @@ button {
     color: #2e2f42;
     gap: 40px;
     color: #404bbf;
-    transition: color 250ms cubic-bezie(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-address {
     font-style: normal;
@@ -248,6 +248,7 @@ button {
     margin: 0 auto;
     border: none;
     align-items: flex-start;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .button-hero:hover,
@@ -263,21 +264,9 @@ button {
     } 
     
 .benefits-container {
-    
         align-items: center;
+        width: 264px;
      }
-
-.benefits-name {  
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.1;
-    letter-spacing: 0.72px;
-    color: #2E2F42;
-    margin-bottom: 8px;
-    gap: 8px;
-   }
 
 .benefits-list {
     display: flex;
@@ -285,11 +274,8 @@ button {
     gap: 24px;
     }
 
-.benefits-container  {
-    width: 264px;
-     }
-
 .svg-container {
+    display: flex;
     align-content: center;
     justify-content: center;
     width: 264px;
@@ -333,7 +319,10 @@ button {
     background: #ffffff;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-    
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 2px 1px rgba(46, 47, 66, 0.08);
+
     }
             
 .main-team-name {
@@ -420,9 +409,10 @@ button {
         align-items: center;
         justify-content: center;
         column-gap: 16px;
-        width: 100%px;
+        width: 100%;
         background-color: #4d5ae5;
         border-radius: 50%;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
 .social-list-link:hover,
@@ -594,8 +584,8 @@ button {
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
-    /* 150% */
     letter-spacing: 0.32px;
+    margin-bottom: 16px;
     }
 
     .social-list-footer {
@@ -615,3 +605,8 @@ button {
             border-radius: 50%;
             transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
+
+        .social-footer-link:hover,
+        .social-footer-link:focus {
+                    background-color: #404bbf;
+                }
