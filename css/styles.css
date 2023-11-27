@@ -134,6 +134,8 @@ button {
     color: #2e2f42;
     padding-top: 24px;
     padding-bottom: 24px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
     }
 .menu-link:hover,
 .menu-link:focus 
@@ -189,6 +191,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.32px;
     color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link:hover,
 .address-link:focus {
@@ -516,7 +519,12 @@ button {
     height: 100%;
     width: 100%;
     transform: translateY(100%);
-    transition: box-shadow 250ms cubic-bezier(0.4 0, 0.2 1);
+    transform: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+.description-text:hover {
+        transform: translateY(100%);
     }
 
  .portfolio-name {
@@ -543,11 +551,19 @@ button {
     flex-shrink: 0;
     padding: 100px 0;
     margin: 0 auto;
-    
+ }
+
+ .footer-container {
+     display: flex;
+     display: inline-flex;
+     align-items: baseline;
+     align-items: flex-start;
+     gap: 16px;
+     margin-bottom: 16px;
  }
 
 .page-footer-container {
-   
+    display: flex;
     align-items: baseline;
     margin-right: 120px;
     }
@@ -571,14 +587,7 @@ button {
     color: #4D5AE5;
     margin-bottom: 16px;
     }
-.footer-container {
-    display: flex;
-    display: inline-flex;
-    align-items: baseline;
-    align-items: flex-start;
-    gap: 16px;
-    margin-bottom: 16px;
-    }
+
 .social-footer-post {
     color: var(--WHITE, #FFF);
     font-family: Roboto;
@@ -605,7 +614,7 @@ button {
     height: 100%;
     background-color: #4d5ae5;
     border-radius: 50%;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
     }
 
 .social-footer-link:hover,
