@@ -554,16 +554,13 @@ button {
 
  .footer-container {
      display: flex;
-
      align-items: baseline;
-     align-items: flex-start;
      gap: 16px;
      margin-bottom: 16px;
+
  }
 
 .page-footer-container {
-    
-    align-items: baseline;
     margin-right: 120px;
     }
 
